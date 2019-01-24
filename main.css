@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 100%;
+    
+    
+}
+
+/*
+After a second of thinking, I was able to remember stuff
+from Flex!
+*/
+section {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+section header {
+    color: goldenrod;
+    font-size: 80px;
+    font-family: 'Mr Bedfort', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+ section p {
+    color: goldenrod;
+    font-size: 40px;
+    font-family: 'Mr Bedfort', cursive;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 90%;
+    text-align: center;
+}
+
+section button {
+    width: 120px;
+    height: 50px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    
+
+}
